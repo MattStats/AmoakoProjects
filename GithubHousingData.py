@@ -5,6 +5,7 @@ Created on Wed Feb  1 15:29:31 2023
 
 @author: Matthew
 """
+#Dataset link: https://www.kaggle.com/datasets/shibumohapatra/house-price
 
 import pandas as pd
 import numpy as np
