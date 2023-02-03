@@ -14,6 +14,7 @@ import seaborn as sns
 import scipy as sp
 
 cal = pd.read_csv('1553768847-housing.csv')
+cal.dropna(axis = 0, inplace=True)
 #The median_house_value cutoff occurs at $500001. This project serves to predict 
 # median house prices for the common man
 cal2 = cal[cal['median_house_value'] <= 500000].copy()
